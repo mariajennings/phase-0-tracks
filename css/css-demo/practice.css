@@ -1,0 +1,13 @@
+#contact-info p {
+  line-height: .8em;
+  font-size: .8em;
+}
+.job {
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: #e9e5dc;
+  margin: 30px auto;
+}
+.accomplishment {
+  font-size: .8em;
+}
