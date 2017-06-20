@@ -1,0 +1,17 @@
+# ROBOT VERSUS ELEVATOR
+How to use an elevator:
+From outside, note the up arrow or down arrow buttons on the wall next to the elevator.
+Do you want to go up or down? If the number of the floor you want to go to is larger than the floor you are currently on, you will want to go UP, and you should press the up arrow.
+If the number of the floor you want to go to is smaller than the number of the floor you are currently on, you will want to go DOWN, and you should press the down arrow.
+Once the elevator has arrived, wait for the door to open to enter.
+Once you are in the elevator, take note of the buttons that will be on the left-hand or right-hand side of the elevator door. Each button will be labeled with a number.
+Press the number that is the SAME as the number of the floor you want to go to.
+Wait for the elevator to reach your desires floor.
+Once the doors open, you can safely exit the elevator.
+
+# EVERYDAY ALGORITHM
+I work at a bookstore, so I use searching and alphabetizing algos all the time!
+When I get a new book in, I first must determine the TYPE - or genre - of the book. I can do this based on the title, author or cover of a book, and I need to verify that conclusion with the information in our computer database.
+After I have confirmed the genre of book, I move to that part of the store. All the sections of the store are labeled to match the genres of books that we carry. I read the signs to know where that section is.
+But that's not all - after I am in the correct aisle, I need to figure out where in the section the book goes. As in most libraries and bookstores, books are alphabetized by the author's last name.
+I look at the author's last name (almost always on the spine of a book) and see which letter it begins with. Using the Latin alphabet, I navigate to the section that begins with the same letter as the author's last name. I use the remaining letters in the author's last name to make sure the book is place in precise alphabetical order on the shelf.
