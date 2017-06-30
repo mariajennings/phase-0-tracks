@@ -4,36 +4,39 @@
 # When there's more than one suspect who could have
 # committed the crime, add additional calls to prove it.
 
-# "iNvEsTiGaTiOn".<???>
+p "iNvEsTiGaTiOn".swapcase
 # => “InVeStIgAtIoN”
 
-# "zom".<???>
+p "zom".gsub(/o/, "oo")
 # => “zoom”
+# Could do the reverse with .squeeze
 
-# "enhance".<???>
+p "enhance".center(10)
 # => "    enhance    "
 
-# "Stop! You’re under arrest!".<???>
+p "Stop! You’re under arrest!".upcase
 # => "STOP! YOU’RE UNDER ARREST!"
 
-# "the usual".<???>
+p "the usual".insert(-1, ' suspects')
+p "the usual".concat " suspects"
 #=> "the usual suspects"
 
-# " suspects".<???>
+p " suspects".insert(0, "the usual")
+p " suspects".prepend "the usual"
 # => "the usual suspects"
 
-# "The case of the disappearing last letter".<???>
+p "The case of the disappearing last letter".chop
 # => "The case of the disappearing last lette"
 
-# "The mystery of the missing first letter".<???>
+p "The mystery of the missing first letter".slice!(1..-1)
 # => "he mystery of the missing first letter"
 
-# "Elementary,    my   dear        Watson!".<???>
+p "Elementary,    my   dear        Watson!".squeeze("  ")
 # => "Elementary, my dear Watson!"
 
-# "z".<???>
-# => 122 
-# (What is the significance of the number 122 in relation to the character z?)
+p "z".ord
+# => 122
+# 122 is the integer ordinal of the lowercase letter z in the ASCII (American Standard Code for Information Interchange)/Unicode table. The ASCII table is a numerical representaiton of all characters. .ord converts all printable characters into their  integer ordinal.
 
-# "How many times does the letter 'a' appear in this string?".<???>
+p "How many times does the letter 'a' appear in this string?".count("a")
 # => 4
